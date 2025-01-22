@@ -1,10 +1,13 @@
 <template>
-  <h1>Hello World</h1>
+  <h1>{{ helloWorld }}</h1>
 </template>
 
 <script>
 export default {
   name: 'App',
+  data: {
+    helloWorld: 'Hello World',
+  },
 };
 </script>
 
